@@ -28,9 +28,15 @@ const App: React.FC = () => {
       >
         <h3>Menu组件</h3>
         <Menu defaultIndex={0}>
-          <MenuItem>1</MenuItem>
-          <MenuItem>2</MenuItem>
-          <MenuItem>3</MenuItem>
+          <MenuItem>黑旋风</MenuItem>
+          <MenuItem>豹子头</MenuItem>
+          <MenuItem>花和尚</MenuItem>
+        </Menu>
+
+        <Menu defaultIndex={0} mode="vertical">
+          <MenuItem>张三丰</MenuItem>
+          <MenuItem>张无忌</MenuItem>
+          <MenuItem>令狐冲</MenuItem>
         </Menu>
       </div>
     </div>

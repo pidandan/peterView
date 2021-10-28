@@ -16,7 +16,7 @@ const MenuItem: React.FC<MenuItemProps> = (props) => {
   const { index, disable, className, style, children } = props;
   // 创建item的样式
   const classes = classNames('menu-item', className, {
-    'is-disable': disable,
+    'is-disabled': disable,
   });
   return (
     <li className={classes} style={style}>
